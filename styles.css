@@ -1,0 +1,109 @@
+
+:root {
+    /* colours */
+    --black: #172339;
+    --grey: #49566D;
+    --cream: #F3EDE7;
+    --white: #FAF8F6;
+    --violet: #A060FF;
+    --pink: #CB30E3;
+    --orange: #FFA84E;
+}
+
+html, body {
+    font-family: 'Epilogue', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: var(--grey)
+
+
+}
+
+/* Heading XL */
+h1 {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 78px;
+    letter-spacing: -1px;
+    color: var(--black);
+    
+}
+
+/* Heading L */
+h2 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -.5px;
+    color: var(--black);
+}
+
+/* Heading M */
+h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -.18px;
+    color: var(--black);
+}
+
+/* Heading S */
+h4 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -2.5px;
+}
+
+#quote {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    letter-spacing: 0.111111px;
+}
+
+footer {
+    font-size: 15px;
+    line-height: 32px;
+}
+
+#button-Primary {
+    width: 256px;
+    height: 61px;
+    background-color: var(--black);
+    color: var(--white);
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -.18px;
+}
+
+#button-Primary:hover {
+    color: var(--cream);
+    background-color: linear-gradient(135deg, var(--violet) 0%, var(--pink) 49.21%, var(--orange) 100%);
+    cursor: pointer;
+}
+
+#button-Secondary {
+    width: 219px;
+    height: 56px;
+    background-color: var(--cream);
+    color: var(--black);
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: -0.16px;
+    border: 1px solid var(--black)
+}
+
+#button-Secondary:hover {
+    color: var(--cream);
+    background-color: var(--black);
+    cursor: pointer;
+}
+
