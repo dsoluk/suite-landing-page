@@ -12,8 +12,6 @@
 
   <link rel="stylesheet" href="styles.css">
 
-  <script src="script.js"></script>
-  
   <title>Frontend Mentor | Suite landing page</title>
 </head>
 <body>
@@ -27,34 +25,34 @@
     <section class="top-section">
       <img id="curved-line-top" src="/assets/pattern-curved-line-1.svg" alt=""></img>
 
-      <div class="left-pane">
+      <div class="left-pane flex-item">
         <h1>A <span>super solution</span> for your <span>business.</span></h1>
         <p>Our marketing and sales automations help you scale your outreach to 
         get more leads for your company.</p>
         <button type="button" id="button-Primary" name="reqbtn">Request Beta Access</button>
       </div>
 
-      <picture class="hero">
-        <source type="image/png"
-                media = "(min-width: 320px)"
-                srcset="assets/image-hero-landscape.png 1x,
-                        assets/image-hero-landscape@2x.png 2x">
+      <picture class="hero flex-item">
         <source type="image/webp"
-                media = "(min-width: 320px)"
-                srcset="assets/image-hero-landscape.webp 1x,
-                        assets/image-hero-landscape@2x.webp 2x">
+                media = "(min-width: 768px)"
+                srcset="assets/image-hero-portrait.webp,
+                        assets/image-hero-portrait@2x.webp 2x">
         <source type="image/png"
                 media = "(min-width: 768px)"
-                srcset="assets/image-hero-portrait.png 1x,
+                srcset="assets/image-hero-portrait.png,
                         assets/image-hero-portrait@2x.png 2x">
         <source type="image/webp"
-                media = "(min-width: 768px)"
-                srcset="assets/image-hero-portrait.webp 1x,
-                        assets/image-hero-portrait@2x.webp 2x">
-        <img src="assets/image-hero-portrait.png" alt="cell phone in coloured background">
+                media = "(min-width: 320px)"
+                srcset="assets/image-hero-landscape.webp,
+                        assets/image-hero-landscape@2x.webp 2x">
+        <source type="image/png"
+                media = "(min-width: 320px)"
+                srcset="assets/image-hero-landscape.png,
+                        assets/image-hero-landscape@2x.png 2x">
+        <img id="cell" src="assets/image-hero-portrait.png" alt="cell phone in coloured background">
       </picture>
 
-      <div class="right-pane-stats">
+      <div class="right-pane-stats flex-item">
         <div class="stats">
           <h2>2K+</h2>
           <h4>Companies</h4>
@@ -93,7 +91,7 @@
 
         <img id="blur-oval" src="assets/pattern-blur.svg" alt="">
 
-        <img id="curved-line-mid" src="/assets/pattern-curved-line-2.svg" alt="">
+        <img id="curved-line-mid" src="assets/pattern-curved-line-2.svg" alt="">
 
         <h1>It just works.</h1>
 
@@ -110,9 +108,9 @@
       <img class="logo" id="logo-2" src="assets/logo.svg" alt="">
       <p>Copyright - Suite</p>
       <div class="icon-container">
-        <img src="/assets/icon-facebook.svg" alt="facebook icon">
-        <img src="/assets/icon-twitter.svg" alt="twitter icon">
-        <img src="/assets/icon-instagram.svg" alt="instagram icon">
+        <img src="assets/icon-facebook.svg" alt="facebook icon">
+        <img src="assets/icon-twitter.svg" alt="twitter icon">
+        <img src="assets/icon-instagram.svg" alt="instagram icon">
       </div>
     </footer>
 
