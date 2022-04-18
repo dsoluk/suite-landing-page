@@ -25,6 +25,7 @@ html, body {
     letter-spacing: 0.1px;
     color: var(--grey);
     background-color: var(--white);
+    margin: 0;
 }
 
 main {
@@ -116,6 +117,13 @@ h4 {
     /* letter-spacing: 0.111111px; */
 }
 
+@media screen and (min-width: 768px) {
+    #quote {
+        margin: 40px;
+    }
+}
+
+
 footer {
     font-size: 15px;
     line-height: 32px;
@@ -188,7 +196,7 @@ img.logo {
 }
 @media screen and (min-width: 768px) {
     .top-section {
-        margin: 80px 40px;
+        margin: 80px 40px 354px 40px;
         display: grid;
         grid-template-rows: 482px 83px;
         grid-template-columns: 350px 
@@ -317,17 +325,12 @@ img.logo {
 }
 
 @media screen and (min-width: 768px) {
-    .stats {
-        margin: 0;
-    }
+    .stats {margin: 0;}
 }
 
-.stats h2 {
-    margin:0;
-}
-.stats h4 {
-    margin:0;
-}
+.stats h2 {margin:0;}
+
+.stats h4 {margin:0;}
 
 .mid-section {
     background-color: var(--darkblue);
@@ -341,15 +344,46 @@ img.logo {
     padding-bottom: 64px;
 }
 
+@media screen and (min-width: 768px) {
+    .mid-section {
+        width: calc(768px - 2 * 40px);
+        height: 684px;
+        margin: 40px;
+    }
+}
+
 #jeremy {width: 343px;}
+
+@media screen and (min-width: 768px) {
+    #jeremy {width: 252px;}
+}
+
 
 #jeremy img {
     position: absolute;
-    margin-top: -256px;
+    margin-top: -182px;
     width: 343px;
 }
 
-#curved-line-mid {width: 49.27px;}
+@media screen and (min-width: 768px) {
+    #jeremy img {
+        margin-top: -240px;
+        width: 252px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #blur-oval {
+        margin-top: -345px;
+        overflow: hidden;}
+}
+
+#curved-line-mid {
+    width: 49.27px;
+    margin-top: -116px;
+    text-align: center;
+    margin-bottom: 40px;
+}
 
 .mid-section h1 {
     font-weight: 400;
@@ -361,10 +395,6 @@ img.logo {
 }
 
 footer {
-    display: grid;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background-color: var(--cream);
     margin-top: -90px;
     padding-bottom: 35px;
@@ -372,16 +402,44 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
-    footer {flex-direction: row;}
+    footer {
+        margin: -573px 0 0 0;
+        padding-top: 560px;
+    }
+}
+
+.footer-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+@media screen and (min-width: 768px) {
+    .footer-wrap {
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
 
 #logo-2 {
     margin: 0 auto;
 }
 
+@media screen and (min-width: 768px) {
+    #logo-2 {
+        margin: 0;
+    }
+}
+
+#copyright {width: 125px;}
+
 .icon-container {
     display: flex;
     justify-content: space-between;
+    width: 116px;
+
 }
 
 .icon-container img {
