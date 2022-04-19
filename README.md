@@ -40,16 +40,18 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties (just colors)
-- Flexbox
+- Flexbox and Grid
 - Mobile-first workflow
 
 ### What I learned
 
-My first Junio level challenge. So far, I've been able to get more comfortable with different strategies to position elements, including overlapping.
+My first Junior level challenge. So far, I've been able to get more comfortable with different strategies to position elements, including overlapping. Had to re-work a bunch as I moved through mobile to tablet to desktop. Lots of back and forth trying to adjust overlays but forced me to understand better...hopefully I can demonstrate in next challenge...ugh!
 
 ### Continued development
 
-Got to get faster. Got stumped a bit but now able to work through different strategies. Using CodePen to simplify and solve.
+Got to get faster. Got stumped a few times (overlays) but now able to work through using different strategies (e.g. transform: translate). Using CodePen to simplify and solve.
+
+Amount of css code seems long (~550 lines) which I think is due to overuse of media queries and px (to try to match up to solution / Figma positioning as close as possible). Thinking code can be more efficient by using min-width, max-width, %'ages to be more responsive (and maybe slightly less accurate to solution)
 
 ### Useful resources
 
